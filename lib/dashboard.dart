@@ -67,7 +67,8 @@ class _DashboardPageState extends State<DashboardPage> {
                     // );
                   },
                   indicatorLayout: PageIndicatorLayout.COLOR,
-                  autoplay: false,
+                  autoplay: true,
+                  duration: 10000,
                   itemCount: characters.length,
                   pagination: new SwiperPagination(),
                   control: new SwiperControl(

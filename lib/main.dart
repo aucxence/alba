@@ -1,4 +1,5 @@
 import 'package:despicableme/dashboard.dart';
+import 'package:despicableme/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
             elevation: 0,
           ),
           scaffoldBackgroundColor: Colors.white),
-      home: DashboardPage(),
+      home: SplashScreen(),
     );
   }
 }
